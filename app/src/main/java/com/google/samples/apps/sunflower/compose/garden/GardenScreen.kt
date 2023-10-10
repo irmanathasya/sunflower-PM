@@ -135,7 +135,7 @@ private fun GardenListItem(
             end = cardSideMargin,
             bottom = dimensionResource(id = R.dimen.card_bottom_margin)
         ),
-        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.error)
     ) {
         Column(Modifier.fillMaxWidth()) {
             SunflowerImage(
